@@ -10,3 +10,64 @@ body{
   background: rgb(2,0,36);
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(9,9,121,1) 100%);
 }
+
+.footer {
+	background-color: #141414;
+	color: #fff;
+	padding: 20px;
+	font-family: Arial, sans-serif;
+}
+
+.footer__container {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.footer__section {
+	margin: 10px;
+	min-width: 200px;
+}
+
+.footer__section h4 {
+	font-size: 16px;
+	margin-bottom: 10px;
+	color: #ccc;
+}
+
+.footer__section ul {
+	list-style: none;
+	padding: 0;
+}
+
+.footer__section ul li {
+	margin-bottom: 8px;
+}
+
+.footer__section ul li a {
+	color: #aaa;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.footer__section ul li a:hover {
+	color: #fff;
+}
+
+.social-links {
+	display: flex;
+	gap: 15px;
+}
+
+.social-links img {
+	width: 24px;
+	height: 24px;
+}
+
+.footer__bottom {
+	text-align: center;
+	margin-top: 20px;
+	font-size: 13px;
+	color: #777;
+}
+
